@@ -1,0 +1,21 @@
+#root {
+  width: 100%;
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
+}
+
+.wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2em;
+}
+
+.primary-bg {
+  background-color: #3e5879;
+}
+
+footer,
+header {
+  width: -webkit-fill-available;
+}
